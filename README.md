@@ -31,3 +31,27 @@ for divisor in range(2,n):
 if is_prime:
     print(f"{n} is prime!")
 
+#Task number 3 
+print("=== Challenge 3: Multiplication Table ===")
+
+
+print("Multiplication Table:")
+
+
+print("    ", end="")  
+for col in range(1, 11):
+    print(f"{col:4}", end="")
+print()  
+
+for row in range(1, 11):
+    
+    print(f"{row:2}  ", end="")
+
+    # Loop through columns 1 to 10 and print the product aligned in 4 spaces
+    for col in range(1, 11):
+        product = row * col
+        print(f"{product:4}", end="")
+
+    print()     
+#I have no idea whats going on with the code I even tried rewritting it and it still is looking weird please dont fail me:)
+
